@@ -1,0 +1,72 @@
+Corrida 1:
+parameters = {'batch_size': [50, 100, 500, 1000],
+               'epochs': [10,100,300,500],
+               'optimizer':['adam', 'rmsprop','adadelta']}
+100 units
+
+{'epochs': 500, 'optimizer': 'rmsprop', 'batch_size': 50}
+0.858
+
+-----------------------------------------------------------------------
+
+Corrida 2:
+parameters = {'batch_size': [25,35,50],
+               'epochs': [500,700,1000],
+               'optimizer':['adam', 'rmsprop','adadelta']}
+200 units
+
+{'epochs': 500, 'optimizer': 'adam', 'batch_size': 25}
+0.862
+-----------------------------------------------------------------------
+***********************************************************************
+Corrida 3:
+parameters = {'batch_size': [10, 15, 25],
+               'epochs': [400,500,600],
+               'optimizer':['adam', 'rmsprop','adadelta']}
+100 units
+
+{'epochs': 400, 'optimizer': 'rmsprop', 'batch_size': 15}
+0.86275
+***********************************************************************
+-----------------------------------------------------------------------
+
+Corrida 4:
+parameters = {'batch_size': [10, 15, 25],
+               'epochs': [100,200,300,400],
+               'optimizer':['adam', 'rmsprop','adadelta']}
+100 units
+
+{'epochs': 400, 'optimizer': 'adam', 'batch_size': 15}
+0.861125
+-----------------------------------------------------------------------
+
+Corrida 5:
+parameters = {'batch_size': [15],
+               'epochs': [400,450,500],
+               'optimizer':['adam', 'rmsprop','adadelta']}
+200 units
+
+{'epochs': 400, 'optimizer': 'adadelta', 'batch_size': 15}
+0.860875
+-----------------------------------------------------------------------
+
+Corrida 6:
+parameters = {'batch_size': [15],
+               'epochs': [400],
+               'optimizer':['adam', 'rmsprop','adadelta']}
+300 units
+
+{'epochs': 400, 'optimizer': 'rmsprop', 'batch_size': 15}
+0.858375
+-----------------------------------------------------------------------
+
+Corrida 7:
+parameters = {'batch_size': [15],
+               'epochs': [400],
+               'optimizer':['adam', 'rmsprop','adadelta']}
+units: 50
+
+{'epochs': 400, 'optimizer': 'adam', 'batch_size': 15}
+0.860375
+
+-----------------------------------------------------------------------
